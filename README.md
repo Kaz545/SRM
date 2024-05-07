@@ -1,2 +1,2 @@
 # SRM: Semantic-Based Recommendation Model
-Semantic-Based Recommendation Model
+In the realm of e-commerce, the ability to provide per- sonalized recommendations based on user reviews is a key to enhancing user experience. This project aims to develop a semantic-driven recommendation system by performing topic modeling on Amazon Fine Food Reviews. The tradi- tional recommendation systems often overlook the rich se- mantic information available in user reviews. This project aims to leverage this information to not only provide more personalized recommendations but also understand why certain recommendations are made. The project combines Natural Language Processing (NLP) and recommendation systems, two significant areas in machine learning, to solve a real-world problem.
