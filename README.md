@@ -9,4 +9,9 @@ Using this history we performed topic modeling to cluster the user and products.
 
 #### User Topics
 
-![User Topics](/Misc/Users Topics.png)
+![User Topics](/Misc/user_topics.png)
+
+#### Product Topics
+
+![User Topics](/Misc/product_topics.png)
+
