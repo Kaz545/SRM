@@ -20,7 +20,7 @@ Using this history we performed topic modeling to cluster the user and products.
 Topic modeling has enabled us to capture semantic representations of products and users based on reviews, as well as to assess the similarity between them. The Neural Collaborative Filtering (NCF) model is crafted to understand the function that represents user-item interactions, such as similarity, which can then be applied to forecast the probability of a user engaging with an item, for instance, a user providing a rating for a product. This model processes the unique identifiers of a user and an item to generate a predictive score for their potential interaction.
 
 #### Model Architecture
-
+![User Topics](/Misc/model_architecture.png)
 ### End To End Flow 
 
 Below schematic summarises the methodology:
