@@ -1,4 +1,4 @@
-# SRM: Semantic-Based Recommendation Model 
+# SRM: Semantic-Based Recommendation Model :memo:
 ## Core
 In the realm of e-commerce, the ability to provide personalized recommendations based on user reviews is a key to enhancing user experience. This project aims to develop a semantic-driven recommendation system by performing topic modeling on Amazon Fine Food Reviews. The traditional recommendation systems often overlook the rich semantic information available in user reviews. This project aims to leverage this information to not only provide more personalized recommendations but also understand why certain recommendations are made. The project combines Natural Language Processing (NLP) and recommendation systems, two significant areas in machine learning, to solve a real-world problem.
 
@@ -26,4 +26,21 @@ Topic modeling has enabled us to capture semantic representations of products an
 Below schematic summarises the methodology:
 
 ![E2E Flow](/Misc/e2e.png)
+
+## How to Run
+### Data
+Data used for this project has been taken from Kaggle from [**here**](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews/) save this as *Reviews.xlsx* in *Data* folder and change the path as mentioned in the below code and then the notebooks should run easily :grinning:.
+
+```
+wrk_dir = './drive/MyDrive/CS 7643 Project/'
+
+```
+
+### Notebooks 
+There are two notebooks **SMR_Topics** and **SMR_Model**. Run former first as it will create the inputs for the second notebook. First notebook does the topic modelling and the second notebook runs the NCF model. 
+
+#### Note
+We have also uploaded the paper associated with this project as it contains all the references and links used in this project. This is still a work in progress as NCF model can be further improved.  
+
+
 
